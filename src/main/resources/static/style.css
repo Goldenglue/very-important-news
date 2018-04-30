@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Fira Sans',sans-serif;
+}
+
+.item {
+    order: 0;
+    margin: auto;
+}
+
+#news {
+    max-width: 900px;
+    background: #f7f7f7;
+    padding: 0 30px;
+}
+
+#news h1 {
+    font-size: 32px;
+}
+
+.news-content {
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.news-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.headline {
+    border-bottom: 4px solid gray;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.headline h1 {
+    margin-left: 100px;
+}
